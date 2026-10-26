@@ -1,6 +1,14 @@
-# Musica Relógio
+# download_musica
 
 Projeto simples para baixar músicas do YouTube e salvar em uma pasta configurável.
+
+Há duas versões do código neste repositório:
+
+1. `link_direto.py`  
+   Versão que baixa diretamente a partir de um link do YouTube ou playlist.
+
+2. `main.py`  
+   Versão com busca por música/artista, mostra resultados e permite escolher qual faixa baixar.
 
 ## Como usar
 
@@ -11,7 +19,13 @@ Projeto simples para baixar músicas do YouTube e salvar em uma pasta configurá
 pip install -r requirements.txt
 ```
 
-3. Execute o programa:
+3. Execute a versão desejada:
+
+```bash
+python link_direto.py
+```
+
+ou
 
 ```bash
 python main.py
@@ -31,6 +45,4 @@ Se quiser, pode copiar o exemplo:
 copy config.example.yaml config.yaml
 ```
 
-## Observação
-
-A pasta de destino não fica hardcoded no código. Ela é lida do arquivo `config.yaml`.
+Se o arquivo não existir ou estiver com problema, o programa usa automaticamente a pasta `downloads` dentro da raiz do projeto.
