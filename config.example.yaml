@@ -1,0 +1,4 @@
+# Exemplo de configuração do projeto
+# Ajuste para a pasta onde as músicas serão salvas.
+# O arquivo real usado é config.yaml
+pasta_destino: "C:/Users/ale/Music"

@@ -1,0 +1,41 @@
+config.yaml
+# Configuration file for the music clock application
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local config secrets
+*.local
+.env
+.env.*
+
+# Downloaded/generated files
+downloads/
+*.mp3
+*.m4a
+*.webm
+*.aac
+*.opus
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# OS files
+.DS_Store
+Thumbs.db
